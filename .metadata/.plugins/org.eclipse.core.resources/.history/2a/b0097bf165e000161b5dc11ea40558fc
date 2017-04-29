@@ -1,0 +1,20 @@
+package LearningTestNG;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class FirstTestNGclass {
+	
+	
+	@Test
+	public void login () {
+		System.out.println("Arun");
+	}
+	
+	@Test 
+	public void logout () {
+		Assert.assertEquals(false, false);
+	}
+
+}

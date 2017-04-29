@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSutie]">
+  <parameter name="arun" value="vijeesh"/>
+  <test name="flipkartTest1(failed)">
+    <parameter name="arun" value="vijeesh"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Test.FileUploder">
+        <methods>
+          <include name="fileUploader"/>
+        </methods>
+      </class> <!-- Test.FileUploder -->
+      <class name="Basepackage.BaseClass">
+        <methods>
+          <include name="launchAUT"/>
+        </methods>
+      </class> <!-- Basepackage.BaseClass -->
+    </classes>
+  </test> <!-- flipkartTest1(failed) -->
+</suite> <!-- Failed suite [RegressionSutie] -->

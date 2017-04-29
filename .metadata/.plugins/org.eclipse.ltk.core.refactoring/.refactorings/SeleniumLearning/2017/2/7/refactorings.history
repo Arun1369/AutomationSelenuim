@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestNG.xml&apos; to &apos;CIALFO&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumLearning&apos;&#x0D;&#x0A;- Destination element: &apos;CIALFO&apos;&#x0D;&#x0A;- Original element: &apos;TestNG.xml&apos;" description="Copy file" destination="=CIALFO" element1="src/LearningTestNG/TestNG.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1486875772464" units="0" version="1.0"/>
+</session>

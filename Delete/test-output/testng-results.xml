@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26522" started-at="2016-11-20T06:22:01Z" finished-at="2016-11-20T06:22:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26522" started-at="2016-11-20T06:22:01Z" finished-at="2016-11-20T06:22:28Z">
+      <class name="deletepack.normalclsss">
+        <test-method status="PASS" signature="setbaseUrl()[pri:0, instance:deletepack.normalclsss@cc285f4]" name="setbaseUrl" is-config="true" duration-ms="24174" started-at="2016-11-20T11:52:01Z" finished-at="2016-11-20T11:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbaseUrl -->
+        <test-method status="FAIL" signature="verifHomepagetitile()[pri:0, instance:deletepack.normalclsss@cc285f4]" name="verifHomepagetitile" duration-ms="41" started-at="2016-11-20T11:52:25Z" finished-at="2016-11-20T11:52:25Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[Welcome: Mercury Tours]> but was:<[Problem loading page]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[Welcome: Mercury Tours]> but was:<[Problem loading page]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at deletepack.normalclsss.verifHomepagetitile(normalclsss.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifHomepagetitile -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:deletepack.normalclsss@cc285f4]" name="endSession" is-config="true" duration-ms="2219" started-at="2016-11-20T11:52:25Z" finished-at="2016-11-20T11:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- deletepack.normalclsss -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/java-client-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/java-client-4.0.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/java-client-4.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/selenium-server-standalone-2.53.0 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arun/Desktop/Libs/testng-6.9.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

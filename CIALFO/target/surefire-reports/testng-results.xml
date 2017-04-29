@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSutie" duration-ms="5647" started-at="2017-03-12T05:43:51Z" finished-at="2017-03-12T05:43:57Z">
+    <groups>
+      <group name="smoke">
+        <method signature="FileUploder.fileUploader()[pri:0, instance:Test.FileUploder@3f3afe78]" name="fileUploader" class="Test.FileUploder"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="flipkartTest1" duration-ms="5647" started-at="2017-03-12T05:43:51Z" finished-at="2017-03-12T05:43:57Z">
+      <class name="Test.FileUploder">
+        <test-method status="PASS" signature="fileUploader()[pri:0, instance:Test.FileUploder@3f3afe78]" name="fileUploader" duration-ms="5514" started-at="2017-03-12T11:13:51Z" finished-at="2017-03-12T11:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploader -->
+      </class> <!-- Test.FileUploder -->
+      <class name="Basepackage.BaseClass">
+        <test-method status="PASS" signature="launchAUT()[pri:0, instance:Basepackage.BaseClass@2812cbfa]" name="launchAUT" is-config="true" duration-ms="21064" started-at="2017-03-12T11:13:30Z" finished-at="2017-03-12T11:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAUT -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:Basepackage.BaseClass@2812cbfa]" name="cleanUp" is-config="true" duration-ms="68" started-at="2017-03-12T11:13:57Z" finished-at="2017-03-12T11:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- Basepackage.BaseClass -->
+    </test> <!-- flipkartTest1 -->
+  </suite> <!-- RegressionSutie -->
+</testng-results>

@@ -1,0 +1,9 @@
+package LearningTestNG;
+
+public class FirstTestNGclass {
+	
+	public void login () {
+		System.out.println("Arun");
+	}
+
+}

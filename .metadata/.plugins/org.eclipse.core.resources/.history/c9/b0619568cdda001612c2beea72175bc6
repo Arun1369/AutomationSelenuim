@@ -1,0 +1,76 @@
+package LearningSelenium;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LearingReadingValuesFromExcel {
+
+	public static void main(String[] args) {
+
+		String fpath = "D:\\SeleniumSoftwares\\Arun.xlsx";
+		
+		
+		//Creating instance for ExcelReader Class
+		ExcelReader xlReader = new ExcelReader(fpath);
+		
+		//Getting row count in Login sheet 
+		int rc = xlReader.getRowCount("Login");
+		System.out.println("row count" + rc);
+		//looping in all rows 
+		for(int i=2;i<=rc;i++){
+			
+			
+			String usname = xlReader.getCellData("Login", "Username", i);
+			System.out.println(usname);
+			String pwd = xlReader.getCellData("Login", "Password", i);
+			System.out.println(pwd);
+			
+			WebDriver driver = new FirefoxDriver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.get("https://www.facebook.com");
+			driver.findElement(By.id("email")).sendKeys(usname);
+			driver.findElement(By.id("pass")).sendKeys(pwd);
+			driver.findElement(By.id("u_0_m")).click();
+			String errorurl = "https://www.facebook.com/login.php?login_attempt=1&lwv=110";
+			String currenturl=driver.getCurrentUrl();
+			if (errorurl.equals(currenturl)){
+			xlReader.setCellData("Login", "Result", i, "fail ");
+			}
+			else {
+		    xlReader.setCellData("Login", "Result", i, "pass");
+		    }
+			//driver.close();
+		} 
+	
+		/*
+		String usname = xlReader.getCellData("Login", "Username", 2);
+		System.out.println(usname);
+		String pwd = xlReader.getCellData("Login", "Password", 2);
+		System.out.println(pwd);
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("https://www.facebook.com");
+		driver.findElement(By.id("email")).sendKeys(usname);
+		driver.findElement(By.id("pass")).sendKeys(pwd);
+		driver.findElement(By.id("u_0_m")).click();
+		String errorurl = "https://www.facebook.com/login.php?login_attempt=1&lwv=110";
+		String currenturl=driver.getCurrentUrl();
+		if (errorurl.equals(currenturl)){
+		xlReader.setCellData("Login", "Result", 2, "Fail");
+		}
+		else {
+			xlReader.setCellData("Login", "Result", 2, "pass");
+			
+		}
+			
+	*/
+	}	
+		
+	}
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;CaseM&apos;&#x0D;&#x0A;- Original project: &apos;CaseM&apos;&#x0D;&#x0A;- Original element: &apos;CaseM/src/src.com.taskm&apos;" description="Delete element" element1="/src&lt;src.com.taskm" element2="/src&lt;src.com" element3="/src&lt;src" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1486201247618" subPackages="false" version="1.0"/>
+</session>

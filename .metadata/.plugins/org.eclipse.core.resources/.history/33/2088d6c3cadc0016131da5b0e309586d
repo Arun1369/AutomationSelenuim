@@ -1,0 +1,54 @@
+package com.cialfomultisport;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+
+public class Login {
+	
+	static WebDriver driver;
+	
+	@BeforeTest
+	
+	public static String getValueFromProperties (String key)  throws IOException {
+	     String filepath = "C:\\Users\\Arun\\workspace\\CialfoMultisports\\src\\cilafofile.propertie";
+			
+			Properties prop = new Properties ();
+			FileInputStream fis = new FileInputStream(filepath);
+			prop.load(fis);
+			return prop.getProperty(key);
+	}
+	
+	@BeforeTest
+
+ public static void browsersetup (String Browsername){
+		switch(Browsername){
+		
+		case "FF":
+		driver=new FirefoxDriver();
+		break;
+		
+		case "Chrome":
+		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumSoftwares\\chromedriver.exe");
+		driver=new ChromeDriver();
+		break;
+	}
+	}
+	
+	@Test 
+	
+	public void loginchecks () throws IOException {
+		browsersetup(getValueFromProperties("Browsername"));
+		driver.get(getValueFromProperties("baseurl"));
+						
+}
+	
+}

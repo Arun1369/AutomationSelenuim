@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSutie]">
+  <parameter name="arun" value="vijeesh"/>
+  <test name="flipkartTest1(failed)">
+    <parameter name="arun" value="vijeesh"/>
+    <classes>
+      <class name="BasePackage.BaseClass">
+        <methods>
+          <include name="launchAUT"/>
+        </methods>
+      </class> <!-- BasePackage.BaseClass -->
+      <class name="SignInTest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- SignInTest -->
+    </classes>
+  </test> <!-- flipkartTest1(failed) -->
+</suite> <!-- Failed suite [RegressionSutie] -->

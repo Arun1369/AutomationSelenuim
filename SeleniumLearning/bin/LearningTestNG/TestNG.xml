@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSutie">
+   <test name="flipkartTest1">
+   <parameter name="arun" value="vijeesh"></parameter>
+   
+   <groups>
+   <run>
+   <include name = "smoke"/>
+   </run>
+   </groups>
+   
+   
+      <classes>
+      <class name="LearningTestNG.FirstTestNGclass" />
+      <class name="LearningTestNG.SecondTestNGclass" />  
+   </classes>
+   </test> 
+</suite>
